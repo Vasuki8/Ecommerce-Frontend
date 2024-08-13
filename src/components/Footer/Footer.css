@@ -1,0 +1,28 @@
+.footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 50px ;
+    border-top: 1px solid #ddd;
+    font-size: 0.9rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.footer p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px;
+    }
+
+    .footer p {
+        font-size: 0.8rem;
+    }
+}
